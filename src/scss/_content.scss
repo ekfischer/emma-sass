@@ -3,35 +3,26 @@
   min-height: 750px;
   min-width: 600px;
   background-color: $secondary-color;
-  font-size: 2rem;
-}
-
-.content ul {
-}
-
-.content h1 {
-}
-
-.content p {
-  width: 55%;
-  min-width: 550px;
-}
-
-.content img, .content video {
-  height: 350px;
-  width: 550px;
-  margin-bottom: 30px;
-}
-
-.content {
-  width: 85%;
-  min-height: 750px;
-  min-width: 600px;
-  background-color: $secondary-color;
-  font-size: 2rem;
+  font-size: 20rem;
+  line-height: 15rem;
+  
   > * {
     padding-left: 30px;
   }
+
   ul {
+    list-style: square;
+    list-style-position: inside;
+  }
+
+  p {
+    width: 55%;
+    min-width: 550px;
+  }
+
+   img, video {
+    height: 350px;
+    width: 550px;
+    margin-bottom: 30px;
   }
 }
